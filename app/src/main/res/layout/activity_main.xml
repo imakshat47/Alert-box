@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/first"
+        android:text="Alert Box to exit"
+        android:textSize="26sp"
+        android:background="@drawable/shapechange"
+        android:textColor="#01040E"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/click"
+        android:layout_below="@+id/first"
+        android:textSize="26dp"
+        android:text="Alert"
+        android:textColor="#0B29E0"
+        android:background="#ff0000"
+
+        />
+
+
+
+</RelativeLayout>
